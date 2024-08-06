@@ -31,7 +31,6 @@ const Footer = () => {
                             className="text-sm text-muted-foreground hover:text-gray-600">
                             Cookie Policy
                         </Link>
-
                     </div>
                 </div>
             </div>
