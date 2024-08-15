@@ -62,7 +62,7 @@ const Steps = () => {
                       'flex h-20 w-20 object-contain items-center justify-center',
                       {
                         'border-none': isCompleted,
-                        'border-zinc-700': isCurrent,
+                        'border-green-700': isCurrent,
                       }
                     )}
                   />
@@ -72,7 +72,7 @@ const Steps = () => {
                   <span
                     className={cn('text-sm font-semibold text-zinc-700', {
                       'text-primary': isCompleted,
-                      'text-zinc-700': isCurrent,
+                      'text-green-700': isCurrent,
                     })}
                   >
                     {step.name}
