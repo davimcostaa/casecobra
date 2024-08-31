@@ -1,10 +1,11 @@
-import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
-import Providers from '@/components/Prodivers';
-import { Toaster } from '@/components/ui/toaster';
-import { constructMetaData } from '@/lib/utils';
+import type { Metadata } from 'next';
 import { Recursive } from 'next/font/google';
 import './globals.css';
+import Footer from '@/components/Footer';
+import { Toaster } from '@/components/ui/toaster';
+import { constructMetaData } from '@/lib/utils';
+import Providers from '@/components/Prodivers';
+import Navbar from '@/components/Navbar';
 
 const recursive = Recursive({ subsets: ['latin'] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={recursive.className}>
+        {/* @ts-expect-error Async Server Component */}
         <Navbar />
 
         <main className='flex grainy-light flex-col min-h-[calc(100vh-3.5rem-1px)]'>
