@@ -14,7 +14,7 @@ const ThankYou = ({ configuration }: { configuration: Configuration }) => {
             Your case is on the way!
           </h1>
           <p className='mt-2 text-base text-zinc-500'>
-            We've receveid your order and are now processing it.
+            We&apos;ve receveid your order and are now processing it.
           </p>
 
           <div className='mt-12 text-sm font-medium'>
@@ -29,10 +29,10 @@ const ThankYou = ({ configuration }: { configuration: Configuration }) => {
               You made a great choice!
             </h4>
             <p className='mt-2 text-sm text-zinc-600'>
-              We at CaseCobra believe that a phone case doesn't only need to
-              look good, but also last you the years to come. We offer a 5-year
-              print guarantee: If you case isn't of the highest quality. We'll
-              replace it for free.
+              We at CaseCobra believe that a phone case doesn&apos;t only need
+              to look good, but also last you the years to come. We offer a
+              5-year print guarantee: If you case isn&apos;t of the highest
+              quality. We&apos;ll replace it for free.
             </p>
           </div>
         </div>
